@@ -1,0 +1,39 @@
+body { 
+    background-color: #eeeeee;
+    font-size: 18px;
+    font-family: "Times New Roman", sans-serif;
+    margin: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.hw1 {
+  width:  400px;
+  margin: 0 auto;
+  padding: 20px 40px 40px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px #dddddd;
+}
+
+.img {
+  text-align: center;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  padding: 0px 0px 10px;
+} 
+
+img {
+  height: 120px;
+}
+
+p {
+  margin: 10px;
+}
+
+li {
+  margin: 0px;
+}
