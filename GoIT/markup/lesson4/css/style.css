@@ -1,0 +1,183 @@
+
+body {
+	background-image: url(../img/bg.jpg);
+	font-family: Tahoma;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.8);
+}
+
+/*HEADER*/
+
+.header {
+	background: #ffffff;
+	height: 213px;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	margin: 11px 0 0 37px;
+}
+
+.container {
+	float: right;
+}
+
+.contacts {
+	float: right;
+	margin: 11px 43px;
+	font-size: 12px;
+	color: #128aa7;
+
+
+}
+
+.title {
+	font-weight: bold;
+	margin-bottom: 12px;
+
+}
+
+.item {
+	margin-top: 9px;
+}
+
+.item a {
+	text-decoration: none;
+}
+
+.contries {
+	float: right;
+	clear: right;
+	margin: 33px 43px 0 0;
+}
+
+.contries li {
+	float: left;
+	text-align: center;
+	margin: 0 7px 0 7px;	 
+}
+
+.contries li a {
+	font-size: 10px;
+	text-decoration: underline;
+	color: #128aa7;
+}
+
+.contries a span {
+	display: block;
+}
+
+/*CONTENT*/
+
+.photo {
+	height: 237px;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+}
+
+.menu {
+	background-color: #303030;
+	font-size: 14px;
+	border-top: 1px solid #cacbcb;
+	border-bottom: 1px solid #000;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.9);
+}
+
+.menu li {
+	float: left; 
+	display: block;
+	position: relative; 
+}
+
+.menu li a {
+	display: block;
+	margin: 0 53px 0 10px;
+	line-height: 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu>li:first-child>a {
+	margin: 0 53px 0 53px;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+}
+
+.menu li ul {
+	display: none;
+	position: absolute; 
+	left: 0;
+	top: 28px; 
+	width: 100%;
+	background-color: #303030;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.9);
+}
+
+.menu li ul li {
+	float: none;
+	margin: 0;
+}
+
+.menu li ul li a {
+	margin: 0;
+	padding: 0 10px 5px 10px;
+	line-height: 24px;
+}
+
+.menu li ul li:first-child a {
+	border-top: 1px solid #000; 
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+.content {
+	background: url(../img/content.png) repeat-y;
+	color: #424c43;
+	line-height: 24px;
+}
+
+.content h2 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.info, .box, .news {
+	padding: 10px 15px;
+}
+
+.info, .news {
+	float: left;
+	width: 180px;
+	font-size: 14px;
+}
+
+.news {
+	float: right;
+}
+
+.box {
+	margin: 0 210px 0 210px;
+}
+
+/*FOOTER*/
+
+.footer p {
+	text-align: center;
+	line-height: 34px;
+	font-size: 12px;
+	color: #ffffff;
+}
+
