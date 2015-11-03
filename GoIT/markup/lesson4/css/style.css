@@ -100,14 +100,10 @@ body {
 
 .menu li a {
 	display: block;
-	margin: 0 53px 0 10px;
+	padding: 0 30px;
 	line-height: 28px;
 	color: #fff;
 	text-decoration: none;
-}
-
-.menu>li:first-child>a {
-	margin: 0 53px 0 53px;
 }
 
 .menu li a:hover {
@@ -169,7 +165,8 @@ body {
 }
 
 .box {
-	margin: 0 210px 0 210px;
+	width: 490px;
+	margin: 0 30px;
 }
 
 /*FOOTER*/
