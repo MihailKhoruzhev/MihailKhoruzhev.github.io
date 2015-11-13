@@ -1,0 +1,230 @@
+
+@font-face {
+	font-family: "HelveticaNeueRoman";
+	src: url(../fonts/HelveticaNeueCyr-Roman.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	background: url(../img/bg.jpg) fixed center top no-repeat;
+	background-size: cover;
+	font-size: 14px;
+	font-family: HelveticaNeueRoman, Tahoma, sans-serif;
+}
+
+.header {
+	background: url(../img/head.png) #074f8f repeat-x;
+}	
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.menu {
+	float: right; 
+}
+
+.menu li {
+	float: left;
+	
+}
+
+.menu li a {
+	display: block;
+	line-height: 35px;
+	padding: 0 12px;
+	text-decoration: none;
+	text-align: center;
+	color: #60b5ed;	
+}
+
+.menu li :hover {
+	background: url(../img/hover_left.png);
+	transition: background 0,2s;
+	color: #fefefe;
+}
+
+.ola, .ofertas {
+	float: right;
+	line-height: 35px;
+	padding: 0 12px;
+	color: #fefefe;
+}
+
+.ola {
+	background: url(../img/hover_right.png);
+	margin-right: 20px;
+
+}
+
+.ola a {
+	text-decoration: underline;
+	color: #fefefe;
+}
+
+.ola a:hover {
+	text-decoration: none;
+	trnsition:underline 0,2s;
+}
+
+.ofertas a {
+	text-decoration: none;
+	color: #fefefe;
+}
+
+.ofertas a:hover {
+	text-decoration: underline;
+	trnsition:underline 0,2s;
+}
+
+.ofertas a:before {
+	content: '';
+	display: block;
+	float: left;
+	margin: 5px 12px;
+	top: 50%;
+	height: 22px;
+	width: 20px;
+	background: url(../img/flag.png);
+}
+
+.menu::before {
+	content: "";
+	display: block;
+	float: right;
+	height: 30px;
+	margin: 2px 0;
+	width: 10px;
+	border-right: 1px solid #56a2dc; 
+}
+
+.panel_regist {
+    margin: 214px auto 200px auto;
+    text-align: center;
+    width: 564px;
+    padding: 20px 0px 24px 0px;
+    border-radius: 4px;
+    background: rgba(51,57,51,0.6);
+    color: #fff;
+}
+.text_up_form {
+    font-size:24px;
+    padding-bottom:20px;
+    border-bottom: 2px solid #c9cfc1;
+}
+button {
+    color: white;
+    margin-top: 35px;
+    line-height:35px;
+    border:1px solid #2e4476;
+    font-size: 16px;
+}
+.button_facebook {
+    background: #355192;
+    width: 278px;
+    border-radius: 5px;
+    border-top: 1px solid #7889b7;
+}
+.button_facebook:hover {
+    background: #3d5498;
+    width: 278px;
+    border-radius: 5px;
+}
+.button_facebook:active {
+    background: #2a3d6d;
+   
+}
+.button_facebook ul li {
+    float: left; 
+}
+.button_facebook ul li:first-child {
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    padding-right: 15px;
+    border-right: 1px solid #1d3c73;  
+}
+.button_facebook ul li:last-child {
+    padding-left: 20px;
+    border-left: 1px solid #4c68a2; 
+}
+.ou ul li {
+    float: left;
+    padding: 0px 5px;
+    color: #999999;  
+}
+.ou ul {
+  display: inline-block;
+    margin-top: 24px;
+    padding-bottom: 20px
+}
+.left_ou {
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid black;
+    width: 112px;
+    margin-top: 7px;
+}
+.right_ou {
+   border-top: 1px solid gray; 
+   border-bottom: 1px solid black; 
+   width: 112px;
+   margin-top: 7px;
+}
+.form_list ul li input {
+    line-height: 32px;
+    margin-bottom: 16px;
+    width: 260px;
+}
+.form_list ul li input {
+    background: #0f0e0e;
+    border:none;
+    border-bottom: 2px solid #484746;
+    padding-left: 17px;
+    color: white;
+}
+.form_list ul li input:hover {
+    box-shadow: -webkit-box-shadow: 0px 0px 15px 3px rgba(70,130,172,1);
+-moz-box-shadow: 0px 0px 15px 3px rgba(70,130,172,1);
+box-shadow: 0px 0px 15px 3px rgba(70,130,172,1);
+    border-bottom: 2px solid #689bcc;
+    background: #1b5288;
+}
+.form_list li input:hover::-webkit-input-placeholder,
+-moz-placeholder,
+-moz-placeholder,
+-ms-input-placeholder{
+    color:#fffbfb;
+}
+.check_box {
+    margin-left: -35px;
+    margin-top: 4px;
+}
+.checkbox_text {
+    color: #b1b0ad;
+}
+.submit_button button {
+    padding: 0px 13px;
+    border-radius: 5px;
+    background: #2e7ac4;
+    color:white;
+    border-bottom: 1px solid #1b5288;
+    border-top: 1px solid #67c6e6;
+    margin-top: 20px;
+}
+.submit_button button:hover {
+    background: #3589da;
+}
+.text_bottom {
+    padding: 20px 125px 0px 125px;
+    font-size: 11px;
+    color:#9f9f9e;
+}
+
+
+
